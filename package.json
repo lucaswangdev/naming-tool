@@ -1,0 +1,19 @@
+{
+  "name": "naming-tool",
+  "version": "1.0.0",
+  "description": "naming tool",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaswangdev/naming-tool.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w ./doc/input.md index.js"
+  },
+  "author": "lucaswangdev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
